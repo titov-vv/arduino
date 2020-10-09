@@ -1,5 +1,5 @@
 # arduino
-_Some sketches for Arduino small devices_
+_Some sketches for Arduino IDE and small devices_
 
 ### AWS_M5_control.ino
 Subscribe to Amazon AWS IoT topic from [M5Stack](https://m5stack.com/) ESP32 device. It expects to receive message in JSON format with one 'data' floating point value: { "data" : 12.345 }. Then recevied value is printed on a screen and written to a text file on SD card. 
